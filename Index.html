@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MemoryGame</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+        
+    <div id="game">
+    <div id="score" class="score" >
+            	<span class="moves" id="totalMoves">0</span> Move(s)
+        </div>
+        <section class="wrapper" id="wrapper">
+            <div class="grid-item" data-id="1">
+                <section class="front-face">1</section>
+                   <section class="back-face">Memory</section>
+            </div>
+            <div class="grid-item" data-id="2">
+                <section class="front-face">2</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="3">
+                <section class="front-face">3</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="4">
+                <section class="front-face">4</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="5">
+                <section class="front-face">5</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="6">
+                <section class="front-face">6</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+                    <div class="grid-item" data-id="1">
+                <section class="front-face">1</section>
+                   <section class="back-face">Memory</section>
+            </div>
+            <div class="grid-item" data-id="2">
+                <section class="front-face">2</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="3">
+                <section class="front-face">3</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="4">
+                <section class="front-face">4</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="5">
+                <section class="front-face">5</section>
+                    <section class="back-face">Memory</section>
+            </div>
+
+            <div class="grid-item" data-id="6">
+                <section class="front-face">6</section>
+                    <section class="back-face">Memory</section>
+            </div>
+        </section>
+  </div>
+        <div id="success" class="success">
+                <h2 >🏆 Congratulations 🏆</h2>
+                <p > 🥇You have won with a total moves of  <span id=finalMove> </span> 🥇</p>
+                <button id="play-again" onclick="shuffle()">
+                    Play again 😄
+                </button>
+        </div>
+
+  
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
