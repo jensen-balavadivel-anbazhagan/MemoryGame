@@ -14,6 +14,8 @@ var wrap = document.getElementById('game');
 //to shuffle the grid cells
 window.onload = shuffle();
 
+document.getElementById('play-again').addEventListener('click', shuffle);
+
 
 
 function shuffle() {
